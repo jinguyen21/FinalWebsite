@@ -1,0 +1,298 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  color: #938854;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Tangerine";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 30px 28px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.testbutton {
+  position: absolute;
+  left: 60%;
+  bottom: -300px;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  padding-top: 3%;
+
+}
+.testbutton {
+  font-family: verdana;
+  color: #D9D9D9 !important;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #FFFFFF;
+  box-shadow: 1px 1px 0px #000000;
+  padding: 6px 16px;
+  border: 2px solid #FFFFFF;
+  background: #000000;
+}
+.testbutton:hover {
+  color: #BD9C19 !important;
+  background: #000000;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: black;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding-top: 0;
+  padding-left: 3%;
+  padding-right: 0;
+  padding-top: 0px;
+  opacity: 1;
+}
+
+/* Title Image */
+
+
+
+#title .background {
+  width: 100%;
+  height: 900px;
+  opacity: .9;
+
+} 
+
+
+#title .fa-4x {
+  position: absolute;
+}
+
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.feature-box {
+  padding: 4.5%;
+
+}
+
+.BBB {
+  color: white;
+}
+
+.fa-4x {
+color: #e2c275;
+padding-bottom: 10px;
+}
+
+.fa-4x:hover {
+opacity: .5;
+}
+
+
+
+/* FAQ */
+.FAQ-text {
+  color: #938854;
+}
+
+/* About */
+
+#about p {
+  position: relative;
+  text-align: left;
+  padding: 7% 10%;
+}
+
+
+/* Designs */
+
+.designs {
+  width: 100%;
+  position: relative;
+  padding: 7% 10%;
+}
+
+/* Pricing Section 
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+End Pricing Section */
+
+/* CTA Section */
+form {
+  background-color: #ECECEC;
+  padding: 30px 40px;
+}
+
+.hidden-label {
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+input,
+select {
+  font-family: Georgia, "Times new roman", sans serif;
+  font-size: 100%;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 40px;
+  margin-bottom: 15px;
+  border: 1px solid #CDCDCD;
+  outline: none;
+}
+
+input[type="name"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+  border: 1px solid #869960;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13);
+}
+
+input[type="submit"] {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  background-color: black;
+  color: #FFF;
+  padding: 10px 0;
+  border: 1px solid #798A56;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  border: 1px solid #535E3B;
+  background-color: lightgray;
+}
+
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*Responsiveness*/
+
+@media (max-width: 700px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title .background {
+    width: 75%;
+  }
+}
